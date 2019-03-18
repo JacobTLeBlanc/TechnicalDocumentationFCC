@@ -1,0 +1,122 @@
+/* Set margins/padding to 0 */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+}
+
+/* NavBar */
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid black;
+	background-color: #F0F0F0;
+}
+
+#navbar header {
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	padding: 50px 0;
+}
+
+#navbar ul li {
+	list-style-type: none;
+	border-top: 1px solid black;
+}
+
+.nav-link {
+	padding: 10px 0;
+	display: block;
+	text-decoration: none;
+	color: #606060;
+	text-align: center;
+}
+
+.nav-link:hover {
+	background-color: #606060;
+	color: #F0F0F0;
+}
+
+/* Main documentation */
+#main-doc {
+	margin-left: 300px;
+	padding: 10px;
+	padding-top: 0;
+}
+
+.main-section header {
+	margin: 10px 0;
+	font-size: 2em;
+	padding: 25px 0;
+	text-align: center;
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+.main-section p {
+	margin: 10px 0;
+}
+
+.main-section code {
+	line-height: 2em;
+	display: block;
+	background-color: #F8F8F8;
+	color: #A0A0A0;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	font-family: Consolas;
+}
+
+/* Footer */
+footer {
+	margin-left: 300px;
+	padding: 5px 10px;
+	border-top: 1px solid black;
+}
+
+/* Mobile version */
+@media only screen and (max-width: 720px) {
+
+	#navbar {
+		position: relative;
+		width: 100vw;
+		height: auto;
+		border-bottom: 1px solid black;
+		border-right: none; 
+	}
+
+	#main-doc {
+		margin: 0;
+		width: 100vw;
+		padding: 10px 0;
+	}
+
+	footer {
+		margin: 0;
+	}
+
+	.main-section header {
+		width: 90%;
+		font-size: 1.8em;
+		margin: 0 auto;
+	}
+
+	.main-section p {
+		margin: 10px;
+	}
+
+	.main-section ul {
+		margin: 20px;
+	}
+
+	.main-section li {
+		list-style-type: none;
+	}
+}

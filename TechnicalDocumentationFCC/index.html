@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Java Technical Documentation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+	<nav id="navbar">
+		<header>Java Documentation</header>
+		<ul>
+			<li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+			<li><a href="#Understanding_Hello_World" class="nav-link">Understanding Hello World</a></li>
+			<li><a href="#Variables" class="nav-link">Variables</a></li>
+			<li><a href="#Methods" class="nav-link">Methods</a></li>
+			<li><a href="#Objects" class="nav-link">Objects</a></li>
+		</ul>
+	</nav>
+	<main id="main-doc">
+		<section class="main-section" id="Hello_World">
+			<header>
+				Hello World
+			</header>
+			<p>
+				We are going to throw you right onto the action! Download an IDE like <a href="https://www.eclipse.org/downloads/">Eclipse</a> and copy 
+				paste this onto a file named HelloWorld.java
+			</p>
+			<code>
+				public class HelloWorld { <br />
+				&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args) { <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print("Hello World"); <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;} <br />	
+				}
+			</code>
+		</section>
+		<section class="main-section" id="Understanding_Hello_World">
+			<header>
+				Understanding Hello World
+			</header>
+			<code>
+				public class HelloWorld {
+			</code>
+			<ul>
+					<li><b>public:</b> This class can be accessed by anyone, this is neccessary for the file to execute. </li><br />
+					<li><b>class:</b> Declares this file as a java class </li><br />
+					<li><b>HelloWorld:</b> Name of class (Must be the same as file name) </li><br />
+			</ul>
+			<p>
+				Anything inside the curly brackets is part of the class.
+			</p>
+			<code>
+				&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args) {
+			</code>
+			<p>
+				This is the main method, every java program must have one. The java compiler (the thing that runs your program) looks for this exact method to run the file. 
+			</p>
+			<ul>
+				<br />
+				<li><b>static:</b> Not important for now</li><br />
+				<li><b>void:</b> This method does not return a value, it executes code then terminates</li><br />
+				<li><b>main:</b> This is what the compiler looks for, it the start of your program</li><br />
+				<li><b>String[] args</b> is for the command-line, it is not important for a beginner.</li><br />
+			</ul>
+			<p>
+				Everything inside the curly brackets of the main method will run from top to bottom when your code is executed.
+			</p>
+			<code>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print("Hello World");
+			</code>
+			<p>
+				<b>System.out.print</b> is used to output to the java console, it is great for debugging and outputing data. The quotation marks are used anytime we are working with words, words are called Strings in java.
+			</p>
+		</section>
+		<section class="main-section" id="Variables">
+			<header>
+				Variables
+			</header>
+			<code>
+				int x = 5;
+			</code>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illum natus, perspiciatis labore recusandae aliquam sed reiciendis consequatur animi eos! Rem est distinctio, id consectetur pariatur illo non, totam commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ipsam nam, corrupti totam ducimus, dignissimos sunt veniam libero aspernatur velit molestiae repellendus quia debitis unde dolorum saepe voluptates quasi enim!
+			</p>
+		</section>
+		<section class="main-section" id="Methods">
+			<header>
+				Methods
+			</header>
+			<code>
+				public String getName() { return name; }
+			</code>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam ipsum, nam unde modi id officiis sint reiciendis accusantium dolorum esse molestiae nobis doloribus ut, accusamus illum et ex eum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit, ea suscipit esse reiciendis, in obcaecati cum aspernatur sunt ratione minus eius illo alias fugit quidem provident officia necessitatibus est.
+			</p>
+		</section>
+		<section class="main-section" id="Objects">
+			<header>
+				Objects
+			</header>
+			<code>
+				public class Circle extends Shape {
+			</code>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam obcaecati amet architecto distinctio repellat reprehenderit dolores veniam, blanditiis. Accusamus vero consectetur itaque. Explicabo a ut ipsa ipsum similique fuga possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quos, nemo iusto hic unde, autem sunt cum quam, culpa ea ipsum facilis eum consectetur aperiam nam odio alias ut! Sint.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus labore nam quod eveniet laborum laudantium nemo voluptatum, ut cumque nobis consequatur ipsam tempore amet consectetur sit voluptates quas corporis, alias?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo rem, perspiciatis illum rerum molestiae nobis eligendi distinctio ex, eius quod suscipit asperiores dolor perferendis quis? Id dolorem officiis cumque.
+			</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Jacob LeBlanc - Made for freeCodeCamp.org and for personal use only</p>
+	</footer>
+</body>
+</html>
